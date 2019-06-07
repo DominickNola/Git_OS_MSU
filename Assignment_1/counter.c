@@ -5,10 +5,13 @@
 
 int main(int argc, char *argv[]) {
 
+    assert(getpid() != 0);
     int child_pid = getpid();
+    assert(getppid() != 0);
     int parent_pid = getppid();
 
     char *end;
+    assert(strtol(argv[1], &end, 10) != 0);
     int str_to_int = strtol(argv[1], &end, 10);
 
     assert(printf("Parent PID: %d\n", parent_pid) != 0);
