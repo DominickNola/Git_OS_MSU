@@ -1,4 +1,4 @@
-NOTES:
+READ-ME:
 To run programs: 
 1) From Terminal, compile each program: 
 ($ gcc -0 counter counter.c)
