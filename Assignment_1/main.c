@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
 
-    // toggle between hard coded value(./main) and terminal input(./main 6).
+    // toggle between hard coded value(./main) and terminal input(./main 8).
     char string_num[10];
     if(argv[1] == NULL) {
         memcpy(string_num, "5", sizeof("5") + 1);
