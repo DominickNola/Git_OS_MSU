@@ -12,10 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd24106-1205-4fa1-a1b3-f54dab7d9bf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter" beforeDir="false" afterPath="$PROJECT_DIR$/counter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter.c" beforeDir="false" afterPath="$PROJECT_DIR$/counter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_+_README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_+_README.txt" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/CLionProjects/Assignment_1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,10 +28,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="435">
               <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -43,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/counter.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -58,7 +55,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ASSIGNMENT_+_README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171" />
+            <state relative-caret-position="536">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -73,6 +72,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/counter.c" />
         <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/ASSIGNMENT_+_README.txt" />
       </list>
     </option>
   </component>
@@ -80,9 +80,9 @@
     <option name="directoryName" value="YyOALEBe" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="463" />
+    <option name="x" value="647" />
     <option name="y" value="23" />
-    <option name="width" value="973" />
+    <option name="width" value="772" />
     <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -146,18 +146,17 @@
       <workItem from="1559871305331" duration="31000" />
       <workItem from="1559871398671" duration="400000" />
       <workItem from="1559871809488" duration="4374000" />
-      <workItem from="1559877825156" duration="1463000" />
+      <workItem from="1559877825156" duration="2129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6366000" />
+    <option name="totallyTimeSpent" value="7032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="463" y="23" width="973" height="865" extended-state="0" />
-    <editor active="true" />
+    <frame x="647" y="23" width="772" height="865" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24919441" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24919441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,25 +196,27 @@
     <entry file="file://$USER_HOME$/CLionProjects/Assignment1/main.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/counter.c">
+    <entry file="file://$PROJECT_DIR$/ASSIGNMENT_+_README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="536">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ASSIGNMENT_+_README.txt">
+    <entry file="file://$PROJECT_DIR$/counter.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
