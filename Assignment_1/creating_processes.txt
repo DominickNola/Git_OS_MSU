@@ -25,6 +25,6 @@ For all system calls, including f/printf(), you need to pay attention to the ret
 [...]
 assert (printf ("...") != 0);
 
-For p-error's, I recommend simply putting in the system call that failed: for example:
+For perror's, I recommend simply putting in the system call that failed, for example:
 perror ("waitpid");
 
