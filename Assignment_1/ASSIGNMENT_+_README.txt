@@ -3,7 +3,9 @@ To run programs:
 1) From Terminal, compile each program: 
 ($ gcc -0 counter counter.c)
 ($ gcc -0 main main.c)
-2) Run the main: To use the Hardcoded Value($ ./main) or to use the Terminal Input($ ./main 9).
+2) Run the main: 
+To use the Hardcoded Value: ($ ./main) 
+or to use the Terminal Input ($ ./main 9).
 
 ASSIGNMENT:
 Due date: Monday, June 10, 2019, 11:55 PM
