@@ -3,7 +3,7 @@ Maximum number of files: 2
 Type of work: Individual work
 Create two C programs.
 
-Have the first read a single argument that is the string representation of an integer. Loop that many times and display "Process: PID #" where PID is the process identifier and # is from 1 through n (n from the first argument). Also, have this program return n as its status. Name this program counter.c
+Have the first read a single argument that is the string representation of an integer. Loop that many times and display "Process: PID #" where PID is the process identifier and # is from 1 through n (n from the first argument). Also, have this program return n as its status. Name this program counter.c.
 
 Have the second create a child process and then execute the first program, passing an argument of 5. Have this program wait for the child process exit and report its status. Name this program main.c
 
