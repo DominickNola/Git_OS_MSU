@@ -2,10 +2,17 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <assert.h>
+#include <string.h>
 
-int main() {
+int main(int argc, char *argv[]) {
 
-    char string_num[10] = "2";
+    char string_num[10];
+    if(argv[1] == NULL) {
+        memcpy(string_num, "5", sizeof("5") + 1);
+    } else {
+        memcpy(string_num, argv[1], sizeof(argv[1]) + 1);
+    }
+
     int fork_result = fork();
     int exit_status;
     if(fork_result  < 0) {

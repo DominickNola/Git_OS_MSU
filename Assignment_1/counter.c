@@ -7,9 +7,10 @@ int main(int argc, char *argv[]) {
 
     int child_pid = getpid();
     int parent_pid = getppid();
-    char *end;
 
+    char *end;
     int str_to_int = strtol(argv[1], &end, 10);
+
     assert(printf("Parent PID: %d\n", parent_pid) != 0);
     for(int i = 1; i <= str_to_int; i++)
     {
