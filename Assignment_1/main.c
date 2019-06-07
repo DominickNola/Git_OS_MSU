@@ -6,6 +6,7 @@
 
 int main(int argc, char *argv[]) {
 
+    // toggle between terminal input(./main 6) and hard coded value(./main).
     char string_num[10];
     if(argv[1] == NULL) {
         memcpy(string_num, "5", sizeof("5") + 1);
@@ -13,6 +14,7 @@ int main(int argc, char *argv[]) {
         memcpy(string_num, argv[1], sizeof(argv[1]) + 1);
     }
 
+    // create the child.
     int fork_result = fork();
     int exit_status;
     if(fork_result  < 0) {
