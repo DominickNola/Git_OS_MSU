@@ -1,3 +1,11 @@
+NOTES:
+To run programs: 
+1) From Terminal, compile each program: 
+($ gcc -0 counter counter.c)
+($ gcc -0 main main.c)
+2) Run the main: Using hardcoded value($ ./main) or Terminal Input($ ./main 9)
+
+ASSIGNMENT:
 Due date: Monday, June 10, 2019, 11:55 PM
 Maximum number of files: 2
 Type of work: Individual work
