@@ -12,8 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd24106-1205-4fa1-a1b3-f54dab7d9bf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/counter" beforeDir="false" afterPath="$PROJECT_DIR$/counter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter.c" beforeDir="false" afterPath="$PROJECT_DIR$/counter.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -79,7 +77,7 @@
     <option name="directoryName" value="YyOALEBe" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="420" />
+    <option name="x" value="259" />
     <option name="y" value="23" />
     <option name="width" value="1163" />
     <option name="height" value="865" />
@@ -144,15 +142,16 @@
       <workItem from="1559871191756" duration="98000" />
       <workItem from="1559871305331" duration="31000" />
       <workItem from="1559871398671" duration="400000" />
-      <workItem from="1559871809488" duration="2638000" />
+      <workItem from="1559871809488" duration="3273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3167000" />
+    <option name="totallyTimeSpent" value="3802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="23" width="1163" height="865" extended-state="0" />
+    <frame x="259" y="23" width="1163" height="865" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3425513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -166,8 +165,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4980595" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49955398" visible="true" weight="0.4980595" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.500446" side_tool="true" visible="true" weight="0.4980595" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32988358" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -200,8 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

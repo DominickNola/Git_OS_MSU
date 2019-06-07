@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
 
-    // toggle between terminal input(./main 6) and hard coded value(./main).
+    // toggle between hard coded value(./main) and terminal input(./main 6).
     char string_num[10];
     if(argv[1] == NULL) {
         memcpy(string_num, "5", sizeof("5") + 1);
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
     } else {
 
         // parent process block
-        wait(&exit_status);
+        waitpid(-1, &exit_status, 0);
         assert(printf("Process %d exited with status: %d\n\n", fork_result, WEXITSTATUS(exit_status)) != 0);
     }
 
