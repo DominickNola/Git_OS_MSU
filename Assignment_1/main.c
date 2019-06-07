@@ -5,18 +5,18 @@
 
 int main() {
 
-    char string_num[10] = "8";
+    char string_num[10] = "2";
     int fork_result = fork();
     int exit_status;
     if(fork_result  < 0) {
-        perror("fork()error!\n\n");
+        perror("fork() error!\n\n");
         exit(-1);
     } else if(fork_result == 0) {
 
         // child process block
         assert(printf("\nChild PID: %d\n", getpid()) != 0);
         execl("./counter", "counter", string_num, (char*)NULL);
-        perror("execl()error!\n\n");
+        perror("execl() error!\n\n");
         exit(1);
     } else {
 
