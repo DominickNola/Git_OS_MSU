@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="Assignment_1" targetName="Assignment_1" />
-    </generated>
+    <generated />
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd24106-1205-4fa1-a1b3-f54dab7d9bf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_+_README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_+_README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/CLionProjects/Assignment_1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -25,14 +24,13 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -40,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/counter.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -69,10 +67,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/counter.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/ASSIGNMENT_+_README.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -80,7 +78,7 @@
     <option name="directoryName" value="YyOALEBe" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="647" />
+    <option name="x" value="652" />
     <option name="y" value="23" />
     <option name="width" value="772" />
     <option name="height" value="865" />
@@ -125,13 +123,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Assignment_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment_1" TARGET_NAME="Assignment_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment_1" RUN_TARGET_NAME="Assignment_1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,17 +137,17 @@
       <workItem from="1559871305331" duration="31000" />
       <workItem from="1559871398671" duration="400000" />
       <workItem from="1559871809488" duration="4374000" />
-      <workItem from="1559877825156" duration="2129000" />
+      <workItem from="1559877825156" duration="2420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7032000" />
+    <option name="totallyTimeSpent" value="7323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="647" y="23" width="772" height="865" extended-state="0" />
+    <frame x="652" y="23" width="772" height="865" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24919441" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2479452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -167,7 +158,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49955398" visible="true" weight="0.29754204" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49955398" visible="true" weight="0.29754204" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500446" side_tool="true" weight="0.4980595" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32988358" />
@@ -186,13 +177,6 @@
     <entry file="file://$USER_HOME$/CLionProjects/Assignment_1/counter.c" />
     <entry file="file://$USER_HOME$/CLionProjects/Assignment_1/main.c" />
     <entry file="file://$USER_HOME$/CLionProjects/Assignment_1/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/CLionProjects/Assignment1/main.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -203,20 +187,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/counter.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/counter.c">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
