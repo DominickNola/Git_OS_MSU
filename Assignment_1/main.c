@@ -3,8 +3,7 @@
 #include <unistd.h>
 #include <assert.h>
 #include <string.h>
-#include <sys/types.h>
-#include <wait.h>
+#include <sys/wait.h>
 
 
 int main(int argc, char *argv[]) {
