@@ -4,6 +4,7 @@
 #include <assert.h>
 #include <string.h>
 
+
 int main(int argc, char *argv[]) {
 
     // toggle between hard coded "5"(./main) and terminal input(./main 8).
