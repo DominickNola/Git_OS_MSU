@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <assert.h>
 #include <string.h>
+#include <sys/types.h>
+#include <wait.h>
 
 
 int main(int argc, char *argv[]) {
@@ -31,7 +33,8 @@ int main(int argc, char *argv[]) {
     } else {
 
         // parent process block
-        waitpid(-1, &exit_status, 0);
+        // waitpid(-1, &exit_status, 0);
+        wait(NULL);
         assert(printf("Process %d exited with status: %d\n\n", fork_result, WEXITSTATUS(exit_status)) != 0);
     }
 
