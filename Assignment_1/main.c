@@ -30,12 +30,7 @@ int main(int argc, char *argv[]) {
 
         // parent process block
         waitpid(-1, &exit_status, 0);
-<<<<<<< HEAD
         assert(printf("Process %d exited with status: %d\n\n", fork_child, WEXITSTATUS(exit_status)) != 0);
-=======
-        assert(printf("Process %d exited with status: %d\n\n", fork_result, 
-                      WEXITSTATUS(exit_status)) != 0);
->>>>>>> 766059fb7e390e52663127e0b90c01eaed762174
     }
 
     return 0;
