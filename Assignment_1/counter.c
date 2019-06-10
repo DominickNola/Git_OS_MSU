@@ -10,9 +10,9 @@ int main(int argc, char *argv[]) {
     assert(getppid() != 0);
     int parent_pid = getppid();
 
-    char *end;
-    assert(strtol(argv[1], &end, 10) != 0);
-    int str_to_int = strtol(argv[1], &end, 10);
+    char *end_pointer;
+    assert(strtol(argv[1], &end_pointer, 10) != 0);
+    int str_to_int = strtol(argv[1], &end_pointer, 10);
 
     assert(printf("Parent PID: %d\n", parent_pid) != 0);
     for(int i = 1; i <= str_to_int; i++)
