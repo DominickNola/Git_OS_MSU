@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     } else if(fork_child == 0) {
 
         // child process block
-        assert(printf("\nChild PID: %d\n", getpid()) != 0);
+        assert(printf("\nChild PID: %d\n", getpid()) >= 0);
         execl("./counter", "counter", string_num, (char*)NULL);
         perror("execl() error!\n\n");
         exit(1);
@@ -30,7 +30,8 @@ int main(int argc, char *argv[]) {
 
         // parent process block
         waitpid(-1, &exit_status, 0);
-        assert(printf("Process %d exited with status: %d\n\n", fork_child, WEXITSTATUS(exit_status)) != 0);
+        // perror("waitpid() error!\n\n");
+        assert(printf("Process %d exited with status: %d\n\n", fork_child, WEXITSTATUS(exit_status)) >= 0);
     }
 
     return 0;
