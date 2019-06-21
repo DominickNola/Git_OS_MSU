@@ -43,7 +43,7 @@ int main() {
 void SIGUSR1_Handler(int signal) {
 
     //sigaction();
-    printf("SIGUSR1_Handler:\n");
+    printf("SIGUSR1_Handler: ");
     printf("User defined process 1.\n");
     //then wait for the child
     //waitpid();
@@ -53,13 +53,13 @@ void SIGUSR1_Handler(int signal) {
 
 void SIGUSR2_Handler(int signal) {
 
-    printf("SIGUSR2_Handler:\n");
+    printf("SIGUSR2_Handler: ");
     printf("User defined process 2.\n");
 
 }
 
 void SIGHUP_Handler(int signal) {
 
-    printf("SIGHUP:\n");
+    printf("SIGHUP: ");
     printf("HANGUP or DEATH DETECTED!\n");
 }
