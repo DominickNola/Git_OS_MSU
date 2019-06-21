@@ -6,14 +6,10 @@
 
 int main(int argc, char *argv[]) {
 
-<<<<<<< HEAD
-    char string_num[10] = "3";
-    int fork_result = fork();
-=======
-    char *terminal_input = argv[1];
+
     char string_num[10];
+    char *terminal_input = argv[1];
     int fork_child = fork();
->>>>>>> 2a851b83bbbc866eb412b1e70ef8bfd398dcae50
     int exit_status;
 
     if(terminal_input == NULL) {
