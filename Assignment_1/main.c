@@ -6,7 +6,6 @@
 
 int main(int argc, char *argv[]) {
 
-
     char string_num[10];
     char *terminal_input = argv[1];
     int fork_child = fork();
