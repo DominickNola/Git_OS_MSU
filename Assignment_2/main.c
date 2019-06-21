@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void signal_handler();
 void sighup();
@@ -14,6 +15,8 @@ void invalid();
 
 int main() {
 
+    clock_t time;
+    time = clock();
     int exit_status;
 
     struct sigaction action;
@@ -40,6 +43,9 @@ int main() {
         assert(waitpid(fork_child, &exit_status, 0) != -1);
     }
 
+    time = clock() - time;
+    double time_taken = ((double)time)/CLOCKS_PER_SEC;
+    printf("\n%f seconds to execute\n", time_taken);
     return 0;
 }
 
