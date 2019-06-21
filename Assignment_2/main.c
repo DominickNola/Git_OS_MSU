@@ -41,27 +41,13 @@ int main() {
 
 void signal_handler(int signal) {
 
-<<<<<<< HEAD
-    //sigaction();
-    printf("SIGUSR1_Handler: ");
-    printf("User defined process 1.\n");
-    //then wait for the child
-    //waitpid();
-    //and then when signals arrive, the signal handler begins doing its thing.
-=======
     if(signal == 1) {
->>>>>>> 420f75bc4425f974880d6dd9ed377da681d7c937
 
         assert(write(STDOUT_FILENO, "Signal# 1, SIGHUP = SIGNAL HANGUP.\n", 35) != 0);
 
     } else if(signal == 30) {
 
-<<<<<<< HEAD
-    printf("SIGUSR2_Handler: ");
-    printf("User defined process 2.\n");
-=======
         assert(write(STDOUT_FILENO, "Signal# 30, SIGUSR1 = USER DEFINED 1.\n", 39) != 0);
->>>>>>> 420f75bc4425f974880d6dd9ed377da681d7c937
 
     } else if(signal == 31) {
 
@@ -81,9 +67,4 @@ void signal_handler(int signal) {
 //
 //    printf("Signal# %d, %s\n", signal, dict[signal]);
 
-<<<<<<< HEAD
-    printf("SIGHUP: ");
-    printf("HANGUP or DEATH DETECTED!\n");
-=======
->>>>>>> 420f75bc4425f974880d6dd9ed377da681d7c937
 }
