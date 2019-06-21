@@ -1,4 +1,4 @@
-# Github_MSU_OPERATING_SYSTEMS_using_C
+# MSU_OPERATING_SYSTEMS_using_C
  Clone the repo, navigate to Assignment folder...
  
  Assignment_2
