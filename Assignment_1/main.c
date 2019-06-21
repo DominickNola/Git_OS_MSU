@@ -5,7 +5,7 @@
 
 int main() {
 
-    char string_num[10] = "8";
+    char string_num[10] = "3";
     int fork_result = fork();
     int exit_status;
     if(fork_result  < 0) {
