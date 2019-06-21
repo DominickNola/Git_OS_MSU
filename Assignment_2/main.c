@@ -7,6 +7,10 @@
 #include <stdlib.h>
 
 void signal_handler();
+void sighup();
+void sigusr1();
+void sigusr2();
+void invalid();
 
 int main() {
 
@@ -22,7 +26,7 @@ int main() {
     assert(sigaction(SIGHUP, &action, NULL) == 0);
 
     pid_t fork_child = fork();
-    if( fork_child < 0) {
+    if(fork_child < 0) {
 
         perror("fork() error.\n");
         exit(-1);
@@ -41,30 +45,29 @@ int main() {
 
 void signal_handler(int signal) {
 
-    if(signal == 1) {
+    static void(*dict[32])(void) = {invalid, sighup, invalid, invalid, invalid, invalid, invalid, invalid, invalid,
+                                    invalid, sigusr1, invalid, sigusr2, invalid, invalid, invalid, sigusr1, sigusr2,
+                                    invalid, invalid, invalid, invalid, invalid, invalid, invalid, invalid, invalid,
+                                    invalid, invalid, invalid, sigusr1, sigusr2};
+    dict[signal]();
+}
 
-        assert(write(STDOUT_FILENO, "Signal# 1, SIGHUP = SIGNAL HANGUP.\n", 35) != 0);
+void sighup() {
 
-    } else if(signal == 30) {
+    assert(write(STDOUT_FILENO, "Signal# 1, SIGHUP = SIGNAL HANGUP.\n", 35) != 0);
+}
 
-        assert(write(STDOUT_FILENO, "Signal# 30, SIGUSR1 = USER DEFINED 1.\n", 39) != 0);
+void sigusr1() {
 
-    } else if(signal == 31) {
+    assert(write(STDOUT_FILENO, "Signal# 30 || 10 || 16, SIGUSR1 = USER DEFINED 1.\n", 50) != 0);
+}
 
-        assert(write(STDOUT_FILENO, "Signal# 31, SIGUSR2 = USER DEFINED 2.\n", 39) != 0);
+void sigusr2() {
 
-    } else {
+    assert(write(STDOUT_FILENO, "Signal# 31 || 12 || 17, SIGUSR2 = USER DEFINED 2.\n", 50) != 0);
+}
 
-        assert(write(STDOUT_FILENO, "Signal is invalid.\n", 19) != 0);
-    }
+void invalid() {
 
-     // maybe make 1 handler per signal
-     // Future dictionary/array of signal functions.
-//    char *dict[32] = {"invalid", "SIGHUP", " ", " ", " ", " ", " ",
-//                      " ", " ", " ", " ", " ", " ", " ", " ", " ", " ",
-//                      " ", " ", " ", " ", " ", " ", " ", " ", " ", " ",
-//                      " ", " ", " ", "SIGUSR1", "SIGUSR2"};
-//
-//    printf("Signal# %d, %s\n", signal, dict[signal]);
-
+    assert(write(STDOUT_FILENO, "Signal is invalid.\n", 19) != 0);
 }

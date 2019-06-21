@@ -1,4 +1,8 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_1
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_1/cmake-build-debug
+CMake Error at CMakeLists.txt:6:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "<<<<<<<".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
