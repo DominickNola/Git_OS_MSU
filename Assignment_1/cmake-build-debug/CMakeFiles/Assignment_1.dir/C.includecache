@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_1/counter.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+assert.h
+-
+
+/Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_1/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+assert.h
+-
+
