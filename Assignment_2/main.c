@@ -45,7 +45,7 @@ int main() {
 
     time = clock() - time;
     double time_taken = ((double)time)/CLOCKS_PER_SEC;
-    printf("\n%f seconds to execute\n", time_taken);
+    printf("\n%f seconds to execute.\n", time_taken);
     return 0;
 }
 
