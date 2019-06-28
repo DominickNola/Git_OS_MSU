@@ -12,13 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd24106-1205-4fa1-a1b3-f54dab7d9bf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter" beforeDir="false" afterPath="$PROJECT_DIR$/counter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_2/child" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2/child" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_2/main" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/CLionProjects/Assignment_1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -46,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-58">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -155,11 +149,12 @@
       <workItem from="1560883897031" duration="282000" />
       <workItem from="1560885259030" duration="2283000" />
       <workItem from="1561108388335" duration="6000" />
+      <workItem from="1561533537469" duration="188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26489000" />
+    <option name="totallyTimeSpent" value="26677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,7 +218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-58">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
