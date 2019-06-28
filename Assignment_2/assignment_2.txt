@@ -1,0 +1,15 @@
+Due date: Thursday, June 20, 2019, 11:55 PM
+Maximum number of files: 2
+Type of work: Individual work
+Create a program that handles signals sent to it. Have a program fork itself and have the child send signals 
+(via kill) to the parent. Send at least three different types of signals, though you don't want to send signals 
+such as INTR, KILL, STOP. Create the signal handling functions for those signals you send. Here is a little 
+code to get you started. Have your two programs named main.c and child.c.
+
+struct sigaction action;
+action.sa_handler = handler;
+sigemptyset (&action.sa_mask);
+action.sa_flags = SA_RESTART;
+assert (sigaction (SIGUSR1, &action, NULL) == 0);
+
+Additionally, send three of the same kind of signal to the parent in a row and notice the functionality that produces.
