@@ -1,0 +1,3 @@
+/Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dominicklicciardi/Documents/Github_Projects/Git_OS_MSU/Assignment_4/cmake-build-debug/CMakeFiles/Assignment_4.dir
