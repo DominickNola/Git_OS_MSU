@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61ec8b56-5d7c-44af-a3d3-094846211ef7" name="Default Changelist" comment="" />
+    <list default="true" id="61ec8b56-5d7c-44af-a3d3-094846211ef7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/../Tutorial_1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/Assignment_4/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,14 +84,14 @@
     <option name="directoryName" value="cmbgQSwn" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="23" />
+    <option name="x" value="78" />
+    <option name="y" value="29" />
     <option name="width" value="1306" />
     <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -110,16 +112,6 @@
             <path>
               <item name="Tutorial_1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Documents/Github_Projects/Git_OS_MSU" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Tutorial_1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Github_Projects/Git_OS_MSU" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Assignment_4" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Tutorial_1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Github_Projects/Git_OS_MSU" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Assignment_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -178,11 +170,12 @@
       <workItem from="1563485310308" duration="1446000" />
       <workItem from="1563486830653" duration="232000" />
       <workItem from="1563490234107" duration="70000" />
+      <workItem from="1563490410832" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5344000" />
+    <option name="totallyTimeSpent" value="5364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,9 +187,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="23" width="1306" height="865" extended-state="0" />
+    <frame x="78" y="29" width="1306" height="865" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15506329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15981013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,7 +200,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988358" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24579561" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24579561" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32988358" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32988358" />
