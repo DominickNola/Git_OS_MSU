@@ -200,7 +200,7 @@ void scheduler(int signum) {
 
         running = &processes[process_number];
         running->state = RUNNING;
-        processes[process_number].started = time(NULL);
+        assert(processes[process_number].started = time(NULL)); // behaves unpredictably when using assert
         running->interrupts = 0;
         running->switches = 0;
         running->ppid = getpid();
