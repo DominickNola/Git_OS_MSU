@@ -5,15 +5,19 @@
       <config projectName="Assignment_4" targetName="Assignment_4" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61ec8b56-5d7c-44af-a3d3-094846211ef7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_5/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_5/race" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_5/race.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_5/race.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../Tutorial_1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/Assignment_4/cmake-build-debug/" />
@@ -26,53 +30,40 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assignment_4/CPU.c">
+        <entry file="file://$PROJECT_DIR$/Assignment_5/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="202" column="62" selection-start-line="202" selection-start-column="62" selection-end-line="202" selection-end-column="62" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment_5/race.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment_4/eye2eh.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment_4/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment_4/systemcall.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment_4/count2five.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -94,10 +85,12 @@
         <option value="$PROJECT_DIR$/Assignment_1/main.c" />
         <option value="$PROJECT_DIR$/Assignment_1/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Assignment_4/eye2eh.c" />
-        <option value="$PROJECT_DIR$/Assignment_4/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Assignment_4/systemcall.h" />
         <option value="$PROJECT_DIR$/Assignment_4/count2five.sh" />
         <option value="$PROJECT_DIR$/Assignment_4/CPU.c" />
+        <option value="$PROJECT_DIR$/Assignment_5/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Assignment_4/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Assignment_5/race.c" />
       </list>
     </option>
   </component>
@@ -105,9 +98,9 @@
     <option name="directoryName" value="cmbgQSwn" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="466" />
+    <option name="x" value="75" />
     <option name="y" value="23" />
-    <option name="width" value="958" />
+    <option name="width" value="1306" />
     <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -116,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,10 +116,16 @@
               <item name="Tutorial_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Git_OS_MSU" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tutorial_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git_OS_MSU" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment_5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,6 +135,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -173,17 +172,22 @@
       <workItem from="1560046391842" duration="44000" />
       <workItem from="1563420869328" duration="737000" />
       <workItem from="1563421625687" duration="162000" />
-      <workItem from="1563476436804" duration="1050000" />
+      <workItem from="1563476436804" duration="1616000" />
+      <workItem from="1563482148925" duration="72000" />
+      <workItem from="1563482349557" duration="3000" />
+      <workItem from="1563482357741" duration="199000" />
+      <workItem from="1563485310308" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2756000" />
+    <option name="totallyTimeSpent" value="4307000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="466" y="23" width="958" height="865" extended-state="0" />
+    <frame x="75" y="23" width="1306" height="865" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18995634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,19 +198,24 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32988358" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32988358" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32988358" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Cargo" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Cargo" order="3" weight="0.32990506" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32990506" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Assignment_4" />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment_1/main.c">
@@ -240,13 +249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment_4/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment_4/systemcall.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -263,11 +265,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment_4/CPU.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="202" column="62" selection-start-line="202" selection-start-column="62" selection-end-line="202" selection-end-column="62" />
+        <state relative-caret-position="61">
+          <caret line="197" column="5" lean-forward="true" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment_4/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment_5/race.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment_5/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
