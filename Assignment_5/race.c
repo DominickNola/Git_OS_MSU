@@ -17,26 +17,40 @@
 ** You will need to compile your program with a "-lpthread" option.
 */
 
+pthread_mutex_t lock;
+
 #define NUM_THREADS 2
 
 int i;
 
 void *foo (void *bar) {
-    printf("in a foo thread, ID %ld\n", (long) pthread_self());
+
+    pthread_mutex_lock(&lock);
+    printf("in a foo thread, ID %ld\n", (long) pthread_self()); 
 
     for (i = 0; i < *((int *) bar); i++) {
         int tmp = i;
 
         if (tmp != i) {
-            printf ("aargh: %d != %d\n", tmp, i);
+            printf ("Aaargh: %d != %d\n", tmp, i);
+        } else if (tmp == i) {
+            printf ("Wow: %d = %d\n", tmp, i);
         }
     }
-
+    pthread_mutex_unlock(&lock);
     pthread_exit ((void *)pthread_self());
+
 }
 
 int main(int argc, char **argv)
 {
+
+    if (pthread_mutex_init(&lock, NULL) != 0)
+    {
+        printf("\n mutex init failed\n");
+        return 1;
+    }
+
     if (argc < 2) {
         printf("You must supply a numerical argument.\n");
         exit(1);
@@ -64,5 +78,6 @@ int main(int argc, char **argv)
         printf("joined a foo thread, number %ld\n", (long) status);
     }
 
+    pthread_mutex_destroy(&lock); 
     return (0);
 }
